@@ -1,0 +1,22 @@
+{
+  "name": "@ph.fritsche/semantic-release-config",
+  "private": "true",
+  "description": "Shared semantic-release-config",
+  "keywords": [
+    "semantic-release",
+    "semantic-release-config"
+  ],
+  "repository": "https://github.com/ph-fritsche/semantic-release-config.git",
+  "author": "Philipp Fritsche",
+  "license": "MIT",
+  "peerDependencies": {
+    "semantic-release": ">=17"
+  },
+  "devDependencies": {
+    "eslint": "^7.15.0",
+    "@ph.fritsche/eslint-config": "^0.1.1"
+  },
+  "scripts": {
+    "lint": "yarn eslint ."
+  }
+}
