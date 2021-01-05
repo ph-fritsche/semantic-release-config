@@ -4,8 +4,8 @@ const config = {
         '@semantic-release/release-notes-generator',
         '@semantic-release/github',
     ],
+    preset: 'conventionalcommits',
     analyzeCommits: {
-        preset: 'conventionalcommits',
     },
 }
 
